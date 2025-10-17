@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sanjay Pokkali — Robotics & ML</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main id="main" class="container">
+    <section id="top" class="hero">
+      <h1>Hi, I'm <span class="accent">Sanjay Pokkali</span>. Welcome!</h1>
+      <p class="tagline">Robotics &amp; AI · MCS @ UIUC</p>
+      <p class="intro">
+        I am a masters student at the University of Illinois, Urbana-Champaign (UIUC) studying Computer Science. My interests are in robotics, reinforcement learning and computer vision.
+      </p>
+      <p class="intro">During the summer of 2025 I interned at <a href="https://www.sliprobotics.com/">Slip Robotics</a> as a robotics intern where I worked on a pick and place task for warehouse automation using. Previous to my masters I was a full stack software engineer at <a href="https://www.cleo.com/">Cleo Communications</a> for 3 years.</p>
+      <p class="intro">At UIUC I am doing robotics research with <a href="https://yunzhuli.github.io">Yunzhu Li</a> and <a href="http://slazebni.cs.illinois.edu">Lana Lazebnik</a>. I am currently working simulating deformable objects for robotics and doing research in real2sim pipelines for evaluating robotics policies.</p>
+      <p class="looking left-accent">I'm currently looking for Spring internships or full-time roles in robotics & robot learning.</p>
+      <p class="intro">Feel free to connect with me by email (sanjay.pokkali99 at gmail dot com) or through any of the links below!</p>
+
+      <nav class="connect" aria-label="Quick links">
+        <a href="https://www.linkedin.com/in/sanjaypokkali" target="_blank" rel="noopener" class="pill">LinkedIn</a>
+        <a href="https://x.com/SanjayPokkali" target="_blank" rel="noopener" class="pill">X (Formally Twitter)</a>
+        <a href="https://github.com/sanjaypokkali" target="_blank" rel="noopener" class="pill">GitHub</a>
+        <a href="resume.pdf" target="_blank" rel="noopener" class="btn">Resume</a>
+      </nav>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <figure class="media ratio-16x9">
+            <img src="assets/towelfolding.gif" alt="Cloth folding on ALOHA robot (placeholder)" loading="lazy">
+          </figure>
+          <div class="content">
+            <h3>Cloth Folding with Diffusion Policies</h3>
+            <p>Collected teleop demos and trained diffusion‑policy agents for multi‑step cloth folding. Built evaluation harness and sim‑to‑real checks.</p>
+            <p class="meta">Python · ROS · PyTorch</p>
+            <!-- <p class="links"><a href="#" class="text-link">Code</a> · <a href="#" class="text-link">Video</a></p> -->
+          </div>
+        </article>
+        <article class="card">
+          <figure class="media ratio-16x9">
+            <img src="assets/autosummon.gif" alt="GemE2 AutoSummon Demo" loading="lazy">
+          </figure>
+          <div class="content">
+            <h3>AutoSummon</h3>
+            <p>Developed an end-to-end pipeline to equip the GEM e2 vehicle with autonomous lane following and navigation capabilities to reach a user’s GNSS location.</p>
+            <p class="meta">Python · ROS · Path Planning · Gazebo</p>
+            <p class="links"><a href="https://github.com/brijesh2709/Polaris-GEM-Car-AutoSummon-and-LaneDetection" class="text-link">Code</a></p>
+          </div>
+        </article>
+        <article class="card">
+          <figure class="media ratio-16x9">
+            <img src="assets/pixsol.jpeg" alt="PixSol Logo" loading="lazy">
+          </figure>
+          <div class="content">
+            <div class="award" role="note">🏆 HackIllinois 2025 — Solana Track Winner</div>
+            <h3>PixSol</h3>
+            <p>PixSol is a decentralized, interactive pixel canvas where students and organizations come together to create a living, evolving piece of digital art.</p>
+            <p class="meta">Solana · NodeJS · React · Redis</p>
+            <p class="links"><a href="https://github.com/sanjaypokkali/HackIllinois2025" class="text-link">Code</a> · <a href="https://devpost.com/software/pixsol" class="text-link">Devpost</a></p>
+          </div>
+        </article>
+        
+        <!-- <article class="card">
+          <figure class="media ratio-16x9">
+            <img src="assets/placeholder-16x9.svg" alt="Cloth folding on ALOHA robot (placeholder)" loading="lazy">
+          </figure>
+          <div class="content">
+            <h3>Cloth Folding with Diffusion Policies</h3>
+            <p>Collected teleop demos and trained diffusion‑policy agents for multi‑step cloth folding. Built evaluation harness and sim‑to‑real checks.</p>
+            <p class="meta">Python · ROS · PyTorch</p>
+            <p class="links"><a href="#" class="text-link">Code</a> · <a href="#" class="text-link">Video</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <figure class="media ratio-16x9">
+            <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID" title="UR20 Pick-and-Place Demo" loading="lazy" allowfullscreen></iframe>
+          </figure>
+          <div class="content">
+            <h3>UR20 Pick‑and‑Place (Slip Robotics)</h3>
+            <p>UR20 manipulation with MoveIt2; developed Gazebo Ignition sim and action‑recording tools for data capture and iteration.</p>
+            <p class="meta">UR20 · MoveIt2 · Gazebo</p>
+            <p class="links"><a href="#" class="text-link">Write‑up</a></p>
+          </div>
+        </article> -->
+      </div>
+    </section>
+
+    <!-- <section id="publications" class="section">
+      <h2>Publications</h2>
+      <div class="cards">
+        <article class="card">
+          <figure class="media ratio-16x9">
+            <img src="assets/paper-placeholder.svg" alt="Paper figure placeholder" loading="lazy">
+          </figure>
+          <div class="content">
+            <h3>6DoF Object Tracking: A Survey <span class="badge">draft</span></h3>
+            <p>Surveying classical and modern methods (e.g., Track2Act, AVDC, Gen2Act, MegaPose; comparison vs. FoundationPose) with task‑specific evaluations.</p>
+            <p class="meta">Preprint · 2025</p>
+            <p class="links"><a href="#" class="text-link">PDF</a> · <a href="#" class="text-link">Project page</a></p>
+          </div>
+        </article>
+      </div>
+    </section> -->
+
+    <!-- <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:sanjay.pokkali99@gmail.com">sanjay.pokkali99@gmail.com</a></p>
+      <p><a href="https://github.com/sanjaypokkali" class="text-link" target="_blank" rel="noopener">GitHub</a> ·
+         <a href="https://www.linkedin.com/in/sanjaypokkali" class="text-link" target="_blank" rel="noopener">LinkedIn</a></p>
+         <a href="https://www.linkedin.com/in/sanjaypokkali" class="text-link" target="_blank" rel="noopener">Twitter</a></p>
+    </section> -->
+  </main>
+</body>
+</html>
